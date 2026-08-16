@@ -1,0 +1,87 @@
+@import url(https://fonts.googleapis.com/css?family=Geist:100,200,300,regular,500,600,700,800,900,100italic,200italic,300italic,italic,500italic,600italic,700italic,800italic,900italic);
+
+body {
+    background-color: #272727;
+    font-family: 'Geist', sans-serif;
+    padding: 3rem;
+    color: #f4f4f4;
+}
+
+header {
+    text-align: center;
+    margin-bottom: 2rem;
+}
+
+.container-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+    gap: 20px;
+}
+
+.card-image {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 1rem;
+}
+
+.image1 {
+    width: 30%;
+    height: auto;
+    border-radius: 2rem;
+}
+
+.card {
+    width: 200px;
+    height: 200px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    padding: 2rem;
+}
+
+.card:hover {
+    transform: translateY(-5px);
+    transition: all 0.5s ease-in-out;
+    border: 1px solid #007bff;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+}
+
+.card-header {
+    font-weight: bold;
+    margin-bottom: 1rem;
+}
+
+.card-body {
+    display: flex;
+    flex-direction: column;
+    height: 100px;
+}
+
+span {
+    font-size: 1.1rem;
+}
+
+strong {
+    font-size: 1.3rem;
+    margin-bottom: 1rem;
+}
+
+#modal {
+    width: 400px;
+    background-color: #212121;
+    color: #f4f4f4;
+    padding: 2rem;
+    border: 2px solid #ccc;
+    border-radius: 2rem;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.3);
+}
+
+#fechar {
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    padding: 0.5rem 1rem;
+    border-radius: 0.25rem;
+    cursor: pointer;
+}
